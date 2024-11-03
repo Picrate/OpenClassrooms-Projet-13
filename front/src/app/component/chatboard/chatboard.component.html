@@ -1,0 +1,13 @@
+<div id="chatboard" class="flex flex-column">
+<div id="message_list" class="flex flex-column surface-card p-4 shadow-2 border-round">
+  <!-- we will use Angular binding to populate list of messages -->
+  <app-chat-message-list [chatMessages]="receivedMessages"></app-chat-message-list>
+</div>
+<div id="send_message_form" class="border-round p-4">
+  <form [formGroup]="sendForm" (ngSubmit)="onSendMessage()">
+    <label for="message" class="mr-2">Reply:</label>
+    <input id="message" type="text" placeholder="send message" pInputText class="w-full" formControlName="messageToSend">
+    <button class="p-button ml-2" type="submit">Send</button>
+  </form>
+</div>
+</div>

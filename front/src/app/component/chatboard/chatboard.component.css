@@ -1,0 +1,26 @@
+#chatboard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  height: 90vh;
+}
+
+#message_list{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+#send_message_form {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+}
+#send_message_form form{
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
