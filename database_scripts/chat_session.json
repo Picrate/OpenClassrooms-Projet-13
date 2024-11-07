@@ -1,0 +1,21 @@
+{
+	"_id": "0193062f-28e6-7bc4-88a4-b0b49b1a5408",
+	"utc_session_start": "2024-11-07T10:34:05Z",
+	"utc_session_end": "2024-11-07T10:38:39Z",
+	"customer": "customer_username",
+	"support": "support_username",
+	"chat_messages": [
+		{
+			"_id": "01930636-5e97-7da9-9160-541765d09c45",
+			"utc_message" : "2024-11-07T10:34:05Z",
+			"from" : "customer_username",
+			"message": "Hello, I can't order my rent. Can someone help me please ?"
+		},
+		{
+			"_id" : "01930636-9fe7-72f1-900d-5a1957e83669",
+			"utc_message" : "2024-11-07T10:34:10Z",
+			"from" : "support_username",
+			"message": "Hello, can you describe me what's wrong ?"
+		}
+	]
+}
